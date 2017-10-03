@@ -1,9 +1,24 @@
-/*#header{
-  background-color: red;
-}*/
-.id {
-  font: 
+.wc{
+  align-items: center;
 }
-.id ul{
-  align-items: flex-end;
+.date{
+  font-family: 'Dancing Script', cursive;
+  color: #350e11;
+}
+.about{
+  border:  25px solid #42f1f4;
+  margin: 50px;
+  padding: 10px;
+}
+.head{
+  background-color: #42f1f4;
+  align-items: center;
+  color: white;
+}
+.img{
+  width: 400px;
+  height: 300px;
+}
+.sp{
+  align-items: center;
 }
