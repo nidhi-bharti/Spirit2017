@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>spirit2017</title>
+    <link rel="stylesheet" href="{% static "css/homestyle.css"}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Body -->
+    <h1 id="wc">Welcome to Spirit 2017</h1>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <h2 id="date">12th October 2017 to 15th October 2017</h3>
+        <div id="about">
+        <h3 id="head">ABOUT</h3>
+        <p>Spirit is the annual festival of IIT Guwahati.Through its inception spirit has served as a great platform for building sports enthusiasts, and also recognizing great talents in different sporting events by taking a leap forward in redefing the spirit in sports. </p>
+        <p><a href="link to last year result">Last year result</a></p>
+      </div>
+
+      </div>
+      <div class="col-sm-6">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner"id="img">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="{% static "images/homeimg.jpg" %}"  alt="no image">
+            </div>
+            <div class="carousel-item">
+              <!-- add second image  -->
+              <img class="d-block w-100" src="{% static "images/homeimg.jpg" %}"  alt="no image">
+
+      </div>
+    </div>
+
+    <div class="sponsors">
+      <h3 id="sp">SPONSORS</h3>
+      <!-- add javascript for effect -->
+      <img src="{% static "images/sbiLogo.jpg" %}" alt="Image not found!"height="80" width="200">
+      <img src="{% static "images/payism.jpg" %}" alt="Image not found!"height="100" width="100">
+      <img src="{% static "images/decathlon.jpg" %}" alt="Image not found!"height="80" width="200">
+    </div>
+
+  </body>
+</html>
